@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bear Work</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Beavers<span>.</span></a>
+        <div class="menuToggle" onclick="toggleMenu();"></div>
+        <ul class="navigation">
+            <li><a href="#banner" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#gallery" onclick="toggleMenu();">Gallery</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </header>
+    <section class="banner" id="banner">
+        <div class="content">
+            <h2>Love Beavers as Family</h2>
+            <p style="color: #fff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pulvinar lectus eget leo tincidunt, sit amet accumsan leo vehicula. Morbi vitae massa id nisl commodo dapibus. Donec vel semper velit. </p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="row">
+            <div class="col50">
+                <h2 class="titleText">About Us</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pulvinar lectus eget leo tincidunt, sit amet accumsan leo vehicula. 
+                    Morbi vitae massa id nisl commodo dapibus. Donec vel semper velit. Donec eu dui nibh. Duis consequat, orci quis dignissim bibendum, nulla dolor finibus turpis,
+                    quis euismod nunc nulla eget nunc. Proin tempus, nisl in cursus sagittis, dui eros consectetur risus, a gravida nisl massa quis justo. Morbi lobortis ante in 
+                    sapien venenatis pellentesque. Mauris porta risus ut magna egestas, in bibendum ex porttitor. Etiam at felis euismod, cursus nisl a, ornare diam. Ut elementum
+                    ipsum id purus gravida lobortis. Duis quis facilisis risus. Cras sit amet erat nisl.
+                </p>
+            </div>
+            <div class="col50">
+                <div class="imgBx">
+                    <video src="videos/My Video2.mp4" autoplay loop muted style="height:auto;width:100%;"></video>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row">
+            <div class="col50">
+                <div class="imgBx">
+                    <img src="images/pic10.JPG">
+                </div>
+            </div>
+            <div class="col50">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pulvinar lectus eget leo tincidunt, sit amet accumsan leo vehicula. 
+                    Morbi vitae massa id nisl commodo dapibus. Donec vel semper velit. Donec eu dui nibh. Duis consequat, orci quis dignissim bibendum, nulla dolor finibus turpis,
+                    quis euismod nunc nulla eget nunc. Proin tempus, nisl in cursus sagittis, dui eros consectetur risus, a gravida nisl massa quis justo. Morbi lobortis ante in 
+                    sapien venenatis pellentesque. Mauris porta risus ut magna egestas, in bibendum ex porttitor. Etiam at felis euismod, cursus nisl a, ornare diam. Ut elementum
+                    ipsum id purus gravida lobortis. Duis quis facilisis risus. Cras sit amet erat nisl.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+        <div class="title">
+            <h2 class="titleText">Gallery</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/pic2.JPG" style="width:310px; height:400;">
+                </div>
+                <div class="text">
+                    <h3>Beaver</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/pic1.JPG" style="width:310px; height:400;">
+                </div>
+                <div class="text">
+                    <h3>Beaver</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/pic16.JPG" style="width:310px; height:400;">
+                </div>
+                <div class="text">
+                    <h3>Beaver</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/pic3.JPG" style="width:310px; height:400;">
+                </div>
+                <div class="text">
+                    <h3>Beaver</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/pic5.JPG" style="width:310px; height:400;">
+                </div>
+                <div class="text">
+                    <h3>Beaver</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/pic6.JPG" style="width:310px; height:400;">
+                </div>
+                <div class="text">
+                    <h3>Beaver</h3>
+                </div>
+            </div>
+        </div>
+        <div class="title">
+            <a href="gallery.html" class="btn">View All</a>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="title">
+            <h2 class="titleText" style="color: #fff;">Contact Us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="contactForm">
+            <h2>Send Message</h2>
+            <div class="inputBox">
+                <input type="text" placeholder="Name">
+            </div>
+            <div class="inputBox">
+                <input type="text" placeholder="Email">
+            </div>
+            <div class="inputBox">
+                <textarea placeholder="Message"></textarea>
+            </div>
+            <div class="inputBox">
+                <input type="submit" value="Send">
+            </div>
+        </div>
+    </section>
+
+    <div class="copyrightText">
+        <p>Copyright 2021 <a href="#">Online Tutorials</a>. All right Reserved</p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        window.addEventListener('scroll', function(){
+            const header = document.querySelector('header');
+            header.classList.toggle("sticky", window.scrollY > 0);
+        });
+
+        function toggleMenu(){
+            const menuToggle = document.querySelector('.menuToggle');
+            const navigation = document.querySelector('.navigation');
+            menuToggle.classList.toggle('active');
+            navigation.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
